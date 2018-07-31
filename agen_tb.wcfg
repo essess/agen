@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/xilinx/agen/agen_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="agen_common" />
+            <top_module name="agen_tb" />
+            <top_module name="env" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/agen_tb/clkcnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clkcnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">clkcnt[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/twraw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">twraw</obj_property>
+      <obj_property name="ObjectShortName">twraw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/twtck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">twtck</obj_property>
+      <obj_property name="ObjectShortName">twtck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/acnt_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acnt_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">acnt_out[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/thvl_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">thvl_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">thvl_out[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/pcnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcnt[0:3]</obj_property>
+      <obj_property name="ObjectShortName">pcnt[0:3]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/agen_tb/pcnt[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">pcnt[0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/agen_tb/pcnt[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">pcnt[1]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/agen_tb/pcnt[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">pcnt[2]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/agen_tb/pcnt[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">pcnt[3]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/runflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">runflg</obj_property>
+      <obj_property name="ObjectShortName">runflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/dut/angcnt0/gapnxtflg_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gapnxtflg_in</obj_property>
+      <obj_property name="ObjectShortName">gapnxtflg_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/gapflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gapflg</obj_property>
+      <obj_property name="ObjectShortName">gapflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/angrstflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">angrstflg</obj_property>
+      <obj_property name="ObjectShortName">angrstflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/acttedge" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acttedge</obj_property>
+      <obj_property name="ObjectShortName">acttedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/stwd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stwd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stwd[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/thvl_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">thvl_in[8:0]</obj_property>
+      <obj_property name="ObjectShortName">thvl_in[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/acnt_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acnt_in[23:0]</obj_property>
+      <obj_property name="ObjectShortName">acnt_in[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/thnb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">thnb[8:0]</obj_property>
+      <obj_property name="ObjectShortName">thnb[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/pcntovfflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pcntovfflg</obj_property>
+      <obj_property name="ObjectShortName">pcntovfflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/agen_tb/acntovfflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">acntovfflg</obj_property>
+      <obj_property name="ObjectShortName">acntovfflg</obj_property>
+   </wvobject>
+</wave_config>

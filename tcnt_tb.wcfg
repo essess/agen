@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/prj/xilinx/agen/tcnt_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="agen_common" />
+            <top_module name="env" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tcnt_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tcnt_tb/thnb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">thnb[8:0]</obj_property>
+      <obj_property name="ObjectShortName">thnb[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tcnt_tb/thvl_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">thvl_in[8:0]</obj_property>
+      <obj_property name="ObjectShortName">thvl_in[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tcnt_tb/clkcnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clkcnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">clkcnt[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tcnt_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tcnt_tb/runflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">runflg</obj_property>
+      <obj_property name="ObjectShortName">runflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tcnt_tb/loadflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadflg</obj_property>
+      <obj_property name="ObjectShortName">loadflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tcnt_tb/rstflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstflg</obj_property>
+      <obj_property name="ObjectShortName">rstflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tcnt_tb/gapflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gapflg</obj_property>
+      <obj_property name="ObjectShortName">gapflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tcnt_tb/twtck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">twtck</obj_property>
+      <obj_property name="ObjectShortName">twtck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tcnt_tb/thvl_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">thvl_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">thvl_out[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

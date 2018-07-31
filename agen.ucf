@@ -1,0 +1,76 @@
+# -----------------------------------------------
+NET "clk50M" TNM_NET = "clk50M" | LOC = P21 | IOSTANDARD = LVCMOS33;
+TIMESPEC TS_clk50M = PERIOD "clk50M" 20 ns HIGH 50 %;
+# -----------------------------------------------
+
+#NET "btn[1]" LOC = P133 | IOSTANDARD = LVCMOS33;             # active high w/external pd
+#NET "btn[2]" LOC = P132 | IOSTANDARD = LVCMOS33;
+#NET "btn[3]" LOC = P131 | IOSTANDARD = LVCMOS33;
+
+# -----------------------------------------------
+
+#NET "sw[1]" LOC = P134 | IOSTANDARD = LVCMOS33;              # active high w/external pd
+#NET "sw[2]" LOC = P137 | IOSTANDARD = LVCMOS33;
+#NET "sw[3]" LOC = P138 | IOSTANDARD = LVCMOS33;
+#NET "sw[4]" LOC = P139 | IOSTANDARD = LVCMOS33;
+#NET "sw[5]" LOC = P140 | IOSTANDARD = LVCMOS33;
+#NET "sw[6]" LOC = P141 | IOSTANDARD = LVCMOS33;
+#NET "sw[7]" LOC = P142 | IOSTANDARD = LVCMOS33;
+#NET "sw[8]" LOC = P143 | IOSTANDARD = LVCMOS33;
+
+# -----------------------------------------------
+
+#NET "led[1]" LOC = P44 | IOSTANDARD = LVCMOS33;              # active high
+#NET "led[2]" LOC = P45 | IOSTANDARD = LVCMOS33;
+#NET "led[3]" LOC = P46 | IOSTANDARD = LVCMOS33;
+#NET "led[4]" LOC = P47 | IOSTANDARD = LVCMOS33;
+#NET "led[5]" LOC = P57 | IOSTANDARD = LVCMOS33;
+#NET "led[6]" LOC = P58 | IOSTANDARD = LVCMOS33;
+#NET "led[7]" LOC = P59 | IOSTANDARD = LVCMOS33;
+#NET "led[8]" LOC = P61 | IOSTANDARD = LVCMOS33;
+
+# -----------------------------------------------
+
+#NET "vga_vs" LOC = P17 | IOSTANDARD = LVCMOS33;
+#NET "vga_hs" LOC = P16 | IOSTANDARD = LVCMOS33;
+
+#NET "vga_red[0]" LOC = P15 | IOSTANDARD = LVCMOS33;
+#NET "vga_red[1]" LOC = P14 | IOSTANDARD = LVCMOS33;
+#NET "vga_red[2]" LOC = P12 | IOSTANDARD = LVCMOS33;
+#NET "vga_red[3]" LOC = P11 | IOSTANDARD = LVCMOS33;
+
+#NET "vga_grn[0]" LOC = P10 | IOSTANDARD = LVCMOS33;
+#NET "vga_grn[1]" LOC = P9  | IOSTANDARD = LVCMOS33;
+#NET "vga_grn[2]" LOC = P8  | IOSTANDARD = LVCMOS33;
+#NET "vga_grn[3]" LOC = P7  | IOSTANDARD = LVCMOS33;
+
+#NET "vga_blu[0]" LOC = P6  | IOSTANDARD = LVCMOS33;
+#NET "vga_blu[1]" LOC = P5  | IOSTANDARD = LVCMOS33;
+#NET "vga_blu[2]" LOC = P2  | IOSTANDARD = LVCMOS33;
+#NET "vga_blu[3]" LOC = P1  | IOSTANDARD = LVCMOS33;
+
+# -----------------------------------------------
+
+#NET "ps2_data" LOC = P33 | IOSTANDARD = LVCMOS33;
+#NET "ps2_clk"  LOC = P34 | IOSTANDARD = LVCMOS33;
+
+# -----------------------------------------------
+
+#NET "sseg_a"  LOC = P116 | IOSTANDARD = LVCMOS33;            # cathode, active low
+#NET "sseg_b"  LOC = P114 | IOSTANDARD = LVCMOS33;
+#NET "sseg_c"  LOC = P117 | IOSTANDARD = LVCMOS33;
+#NET "sseg_d"  LOC = P118 | IOSTANDARD = LVCMOS33;
+#NET "sseg_e"  LOC = P119 | IOSTANDARD = LVCMOS33;
+#NET "sseg_f"  LOC = P121 | IOSTANDARD = LVCMOS33;
+#NET "sseg_g"  LOC = P115 | IOSTANDARD = LVCMOS33;
+#NET "sseg_dp" LOC = P123 | IOSTANDARD = LVCMOS33;
+
+
+#NET "sseg_an[0]" LOC = P112 | IOSTANDARD = LVCMOS33;          # anode, active low driver
+#NET "sseg_an[1]" LOC = P111 | IOSTANDARD = LVCMOS33;
+#NET "sseg_an[2]" LOC = P127 | IOSTANDARD = LVCMOS33;
+#NET "sseg_an[3]" LOC = P126 | IOSTANDARD = LVCMOS33;
+
+# -----------------------------------------------
+# -----------------------------------------------
+# -----------------------------------------------

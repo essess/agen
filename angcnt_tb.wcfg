@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/xilinx/agen/angcnt_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="agen_common" />
+            <top_module name="angcnt_tb" />
+            <top_module name="env" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/angcnt_tb/acnt_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acnt_in[23:0]</obj_property>
+      <obj_property name="ObjectShortName">acnt_in[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/stwd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stwd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stwd[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/prevpcnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prevpcnt[23:0]</obj_property>
+      <obj_property name="ObjectShortName">prevpcnt[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/clkcnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clkcnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">clkcnt[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/rstflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstflg</obj_property>
+      <obj_property name="ObjectShortName">rstflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/loadflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">loadflg</obj_property>
+      <obj_property name="ObjectShortName">loadflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/runflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">runflg</obj_property>
+      <obj_property name="ObjectShortName">runflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/twtck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">twtck</obj_property>
+      <obj_property name="ObjectShortName">twtck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/acnt_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">acnt_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">acnt_out[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/gapnxtflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gapnxtflg</obj_property>
+      <obj_property name="ObjectShortName">gapnxtflg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/angcnt_tb/gaptcnt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gaptcnt</obj_property>
+      <obj_property name="ObjectShortName">gaptcnt</obj_property>
+   </wvobject>
+</wave_config>

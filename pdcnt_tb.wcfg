@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/prj/xilinx/agen/pdcnt_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="agen_common" />
+            <top_module name="env" />
+            <top_module name="numeric_std" />
+            <top_module name="pdcnt_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/pdcnt_tb/clkcnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clkcnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">clkcnt[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pdcnt_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pdcnt_tb/twtck" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">twtck</obj_property>
+      <obj_property name="ObjectShortName">twtck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pdcnt_tb/pcnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcnt[0:3]</obj_property>
+      <obj_property name="ObjectShortName">pcnt[0:3]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/pdcnt_tb/pcnt[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">pcnt[0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pdcnt_tb/pcnt[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">pcnt[1]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pdcnt_tb/pcnt[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">pcnt[2]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pdcnt_tb/pcnt[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">pcnt[3]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/pdcnt_tb/ovfflg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ovfflg</obj_property>
+      <obj_property name="ObjectShortName">ovfflg</obj_property>
+   </wvobject>
+</wave_config>

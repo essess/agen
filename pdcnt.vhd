@@ -8,7 +8,7 @@
 library ieee;
 use ieee.std_logic_1164.all,
     ieee.numeric_std.all,
-    work.agen_common.all;
+    work.agen_pkg.all;
 
 ---
  -- (P)erio(D) (C)ou(NT) management
@@ -24,7 +24,7 @@ entity pdcnt is
         pcnt_out   : out pcnt_t(0 to PCNTDEPTH-1) );      --< PCNT
 end entity;
 
-architecture default of pdcnt is
+architecture dfault of pdcnt is
   constant PCNTMAX : unsigned(PCNTWIDTH-1 downto 0) := (others=>'1');
   signal pcnt : pcnt_t(0 to PCNTDEPTH-1);
 begin

@@ -8,7 +8,7 @@
 library ieee;
 use ieee.std_logic_1164.all,
     ieee.numeric_std.all,
-    work.agen_common.all,
+    work.agen_pkg.all,
     std.env.all;
 
 entity pdcnt_tb is
@@ -16,7 +16,7 @@ entity pdcnt_tb is
   generic(tclk:time := 10 ns);
 end entity;
 
-architecture default of pdcnt_tb is
+architecture dfault of pdcnt_tb is
 
   component pdcnt is
     generic( PCNTRSTVAL : integer := PCNTRSTVAL );          --<[for testing purposes (ovfflg)]

@@ -10,7 +10,7 @@ library ieee;
 use ieee.std_logic_1164.all,
     ieee.numeric_std.all;
 
-package agen_common is
+package agen_pkg is
 
   --[ defaults ]-----------------------------------------------------
   constant CNTRWIDTH  : integer := 24;          --< counter width

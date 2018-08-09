@@ -8,7 +8,7 @@
 library ieee;
 use ieee.std_logic_1164.all,
     ieee.numeric_std.all,
-    work.agen_common.all,
+    work.agen_pkg.all,
     std.env.all;
 
 entity agen_tb is
@@ -16,7 +16,7 @@ entity agen_tb is
   generic(tclk:time := 10 ns);
 end entity;
 
-architecture default of agen_tb is
+architecture dfault of agen_tb is
 
   component agen is                                                  --[ reference ]
     port( clk_in         : in  std_logic;                         --<

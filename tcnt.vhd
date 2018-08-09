@@ -8,7 +8,7 @@
 library ieee;
 use ieee.std_logic_1164.all,
     ieee.numeric_std.all,
-    work.agen_common.all;
+    work.agen_pkg.all;
 
 ---
  -- (T)ooth (C)ou(NT) management
@@ -27,7 +27,7 @@ entity tcnt is
         gapnxtflg_out : out std_logic );                        --< next tooth period is a gap
 end entity;
 
-architecture default of tcnt is
+architecture dfault of tcnt is
   type state_t is (LOADTHVL, COUNT);
 begin
 

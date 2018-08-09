@@ -15,7 +15,7 @@ entity nf_tb is
   generic(tclk:time := 10 ns);
 end entity;
 
-architecture default of nf_tb is
+architecture dfault of nf_tb is
 
   component nf is
     port( twraw_in    : in  std_logic;              --< raw toothed wheel input

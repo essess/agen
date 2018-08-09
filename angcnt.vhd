@@ -8,7 +8,7 @@
 library ieee;
 use ieee.std_logic_1164.all,
     ieee.numeric_std.all,
-    work.agen_common.all;
+    work.agen_pkg.all;
 
 ---
  -- (ST)ep (C)ou(NT) management
@@ -29,7 +29,7 @@ entity angcnt is
         acnt_out     : out unsigned(ACNTWIDTH-1 downto 0) );--< angle counter
 end entity;
 
-architecture default of angcnt is
+architecture dfault of angcnt is
   type state_t is (LOADACNT, HOLD, COUNT);
   subtype sel_t is std_logic_vector(1 downto 0);
 

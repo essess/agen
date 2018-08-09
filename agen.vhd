@@ -9,7 +9,7 @@ library ieee;
 
 use ieee.std_logic_1164.all,
     ieee.numeric_std.all,
-    work.agen_common.all;
+    work.agen_pkg.all;
 
 ---
  -- (A)ngle (GEN)erator
@@ -44,7 +44,7 @@ entity agen is                                                  --[ reference ]
         thvl_out       : out unsigned(TWCNTWIDTH-1 downto 0) ); --< THVL rd
 end entity;
 
-architecture default of agen is
+architecture dfault of agen is
 
   component nf is
     port( twraw_in    : in  std_logic;                          --< raw toothed wheel input

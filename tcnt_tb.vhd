@@ -8,7 +8,7 @@
 library ieee;
 use ieee.std_logic_1164.all,
     ieee.numeric_std.all,
-    work.agen_common.all,
+    work.agen_pkg.all,
     std.env.all;
 
 entity tcnt_tb is
@@ -16,7 +16,7 @@ entity tcnt_tb is
   generic(tclk:time := 10 ns);
 end entity;
 
-architecture default of tcnt_tb is
+architecture dfault of tcnt_tb is
 
   component tcnt is
     port( clk_in       : in  std_logic;                         --< clock

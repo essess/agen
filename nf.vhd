@@ -8,7 +8,7 @@
 library ieee;
 use ieee.std_logic_1164.all,
     ieee.numeric_std.all,
-    work.agen_common.all;
+    work.agen_pkg.all;
 
 ---
  -- (N)oise (F)iltering
@@ -23,7 +23,7 @@ entity nf is
         twtck_out   : out std_logic );            --< toothed wheel active edge tick
 end entity;
 
-architecture default of nf is
+architecture dfault of nf is
   signal twfilt : std_logic;
 begin
 

@@ -16,7 +16,7 @@ entity angcnt_tb is
   generic(tclk:time := 10 ns);
 end entity;
 
-architecture arch of angcnt_tb is
+architecture default of angcnt_tb is
 
   component angcnt is
     port( clk_in       : in  std_logic;                       --< clock

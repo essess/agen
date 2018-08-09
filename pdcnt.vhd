@@ -24,7 +24,7 @@ entity pdcnt is
         pcnt_out   : out pcnt_t(0 to PCNTDEPTH-1) );      --< PCNT
 end entity;
 
-architecture arch of pdcnt is
+architecture default of pdcnt is
   constant PCNTMAX : unsigned(PCNTWIDTH-1 downto 0) := (others=>'1');
   signal pcnt : pcnt_t(0 to PCNTDEPTH-1);
 begin

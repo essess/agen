@@ -44,7 +44,7 @@ entity agen is                                                  --[ reference ]
         thvl_out       : out unsigned(TWCNTWIDTH-1 downto 0) ); --< THVL rd
 end entity;
 
-architecture arch of agen is
+architecture default of agen is
 
   component nf is
     port( twraw_in    : in  std_logic;                          --< raw toothed wheel input

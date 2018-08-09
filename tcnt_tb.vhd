@@ -16,7 +16,7 @@ entity tcnt_tb is
   generic(tclk:time := 10 ns);
 end entity;
 
-architecture arch of tcnt_tb is
+architecture default of tcnt_tb is
 
   component tcnt is
     port( clk_in       : in  std_logic;                         --< clock

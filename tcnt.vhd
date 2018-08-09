@@ -27,7 +27,7 @@ entity tcnt is
         gapnxtflg_out : out std_logic );                        --< next tooth period is a gap
 end entity;
 
-architecture arch of tcnt is
+architecture default of tcnt is
   type state_t is (LOADTHVL, COUNT);
 begin
 

@@ -16,7 +16,7 @@ entity pdcnt_tb is
   generic(tclk:time := 10 ns);
 end entity;
 
-architecture arch of pdcnt_tb is
+architecture default of pdcnt_tb is
 
   component pdcnt is
     generic( PCNTRSTVAL : integer := PCNTRSTVAL );          --<[for testing purposes (ovfflg)]

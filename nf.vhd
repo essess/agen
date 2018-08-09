@@ -23,7 +23,7 @@ entity nf is
         twtck_out   : out std_logic );            --< toothed wheel active edge tick
 end entity;
 
-architecture arch of nf is
+architecture default of nf is
   signal twfilt : std_logic;
 begin
 

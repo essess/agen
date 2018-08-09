@@ -16,7 +16,7 @@ entity agen_tb is
   generic(tclk:time := 10 ns);
 end entity;
 
-architecture arch of agen_tb is
+architecture default of agen_tb is
 
   component agen is                                                  --[ reference ]
     port( clk_in         : in  std_logic;                         --<

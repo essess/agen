@@ -29,7 +29,7 @@ entity angcnt is
         acnt_out     : out unsigned(ACNTWIDTH-1 downto 0) );--< angle counter
 end entity;
 
-architecture arch of angcnt is
+architecture default of angcnt is
   type state_t is (LOADACNT, HOLD, COUNT);
   subtype sel_t is std_logic_vector(1 downto 0);
 

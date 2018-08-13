@@ -11,7 +11,7 @@ use ieee.std_logic_1164.all,
     work.agen_pkg.all;
 
 ---
- -- (ST)ep (C)ou(NT) management
+ -- (ANG)le (C)ou(NT) management
 ---
 
 entity angcnt is
